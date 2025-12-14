@@ -15,6 +15,10 @@ let coffees = [
 ]
 let nextId = 4 // สำหรับกำหนด ID ถัดไป
 
+app.get('/', function (req, res) {
+    res.send('wellcome to Coffee Shop API')
+})
+
 // --- API Routes สำหรับ Coffee Shop API ---
 
 // 1. GET: ดูสถานะเซิร์ฟเวอร์
